@@ -9,8 +9,8 @@
         <br>
 
         <div class="form-group">
-          <label for="text">Question Content/Additional Info</label><br><br>
-          {{textarea value=questionContent id="questionContent" placeholder=question.text}}
+          <label for="questionContent">Question Content/Additional Info</label><br><br>
+          {{textarea value=questionContent id="questionContent" placeholder=question.questionContent}}
         </div>
         <button {{action 'update' question}}>Save</button>
       </form>
