@@ -1,0 +1,7 @@
+<h1>Favorite Answers to Questions</h1>
+    {{#each favorites.answers as |answer|}}
+    <li>
+      <h3><i>{{answer.question.title}}</i></h3>
+      <p>{{answer.answerContent}}</p>
+    </li>
+    {{/each}}

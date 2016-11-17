@@ -1,1 +1,4 @@
-{{yield}}
+<h3>{{answer.author}} says:</h3>
+<p>{{answer.answerContent}}</p>
+
+{{#link-to 'answer-favs'}}<button {{action 'addToFavorites' answer}}{{action 'favoriteButtonShow'}} class="btn btn-success btn-lg">Favorite</button>{{/link-to}}

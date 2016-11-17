@@ -10,7 +10,7 @@
 
         <div class="form-group">
           <label for="text">Question Content/Additional Info</label><br><br>
-          {{textarea value=text id="text" placeholder=question.text}}
+          {{textarea value=questionContent id="questionContent" placeholder=question.text}}
         </div>
         <button {{action 'update' question}}>Save</button>
       </form>
