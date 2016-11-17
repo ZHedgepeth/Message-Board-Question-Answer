@@ -1,7 +1,12 @@
-# Message-board-question-answer
+# Question and Answer Message Board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+###_Epicodus JavaScript Ember Project_
+####_November 12th, 2016_
+#### _By Zachary Hedgepeth_
+
+## Description
+
+_The Question and Answer Message Board is a website that allows users to post questions and answers to a message board. Using Ember and Google's FireBase Database, questions can be replied to, deleted, or edited._
 
 ## Prerequisites
 
@@ -19,6 +24,10 @@ You will need the following things properly installed on your computer.
 * `cd message-board-question-answer`
 * `npm install`
 * `bower install`
+
+## Technologies Used
+
+_JavaScript, Node.js, Ember.js, HTML, Bootstrap, FireBase Database, NPM and Bower_
 
 ## Running / Development
 
@@ -51,3 +60,6 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### License
+
+Zach Hedgepeth - Epicodus License
