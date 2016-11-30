@@ -4,6 +4,10 @@ export default Ember.Component.extend({
   favorites: Ember.inject.service(),
   addToFavorites: false,
 
+  heading: Ember.computed('answer.author'   {
+  return this.get('answer.author') + ' - ' + this.get('answer.answerContent');
+}),
+
   actions: {
     favoriteButtonShow() {
       this.set('addToFavorites', false);
