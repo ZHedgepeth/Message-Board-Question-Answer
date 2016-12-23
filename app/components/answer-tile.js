@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   favorites: Ember.inject.service(),
   addToFavorites: false,
 
-  heading: Ember.computed('answer.author'   {
+  heading: Ember.computed('answer.author', function()   {
   return this.get('answer.author') + ' - ' + this.get('answer.answerContent');
 }),
 
